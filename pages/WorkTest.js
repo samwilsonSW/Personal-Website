@@ -14,7 +14,7 @@ const works = [
     title: 'Six Degrees of Kevin Bacon',
     description: "Executed the Kevin Bacon Degree's of Separation problem in python using a JSON file of over 140,000 films and their cast lists. Used an optimized breadth-first search algorithm to find shortest path between target and source actors.",
     image: '../images/oracleBacon.png',
-    link: 'https://github.com/samwilsonSW/WikipediaUnlocked'
+    link: 'https://github.com/samwilsonSW/Six-Degrees'
   },
   {
     id: 3,
