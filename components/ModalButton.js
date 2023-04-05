@@ -12,7 +12,7 @@ export default function ModalButton({ title, description, image, link }) {
       <div className={styles.totalWrapper}>
         <button onClick={() => setIsOpen(true)} className={styles.testButton}>
           <div className={styles.imageWrapper}>
-            <Image src={image} alt={title} className={styles.image} />
+            <img  /*Image*/ src={image} alt={title} className={styles.image} />
           </div>
         </button>
         <div className={styles.titleWrapper}>{title}</div>
