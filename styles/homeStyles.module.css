@@ -1,0 +1,136 @@
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+  background-image: url('/images/coverPhoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100svw;
+  height: 100svh;
+  opacity: 0.6;
+  background-color: black;
+  z-index: -1; /* Add this line to move the pseudo-element behind the main content */
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.backgroundContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/coverPhoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundImage::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  text-align: center;
+  padding: 40px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FBFBE2;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-size: 22pt;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  align-items: center;
+  padding-top: 40svh;
+}
+
+.browserButton {
+  padding-top: 0;
+  font-size: 14pt;
+  color: #FBFBE2;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.browserButton:hover {
+  text-decoration: underline;
+}
+
+.headshot {
+  width: auto;
+}
+
+.name {
+  font-family: 'Dolce Vita Light';
+  font-size: 64pt;
+  color: #FBFBE2;
+  margin: 0;
+  padding-top: 10svh;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.name span.firstname {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.name span.lastname {
+  font-family: 'Dolce Vita Heavy';
+  display: inline-block;
+}
+
+.blurb {
+  width: 60svw;
+}
+

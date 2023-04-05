@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Century Gothic';
+  line-height: 1.6;
+  font-size: 18px;
+  box-shadow:inset;
+  background-color:rgb(275, 265, 235);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
