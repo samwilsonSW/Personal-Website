@@ -1,8 +1,9 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import styles from './Navbar.module.css'
-import utilStyles from '../styles/utils.module.css'
-import { animateScroll as scroll } from 'react-scroll'
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from './Navbar.module.css';
+import '../styles/global.css';
+import { animateScroll as scroll } from 'react-scroll';
+
 
 export default function Navbar() {
   const handleScrollToSection = (sectionId) => {

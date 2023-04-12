@@ -10,7 +10,7 @@ body {
   background-color:rgb(275, 265, 235);
   overflow-x: hidden;
   scroll-behavior: smooth;
-
+  
 }
 
 * {
@@ -53,5 +53,5 @@ img {
   font-family: "Century Gothic";
   font-style: normal;
   font-display: optional;
-  src: url('/fonts/Century Gothic.ttf') format('truetype');
+  src: url('/fonts/CenturyGothic.ttf') format('truetype');
 }
