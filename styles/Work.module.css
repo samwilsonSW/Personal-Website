@@ -20,7 +20,6 @@
   cursor: pointer;
   transition: background-color 0.2s ease;
   margin: 1.5vw;
-  font-family: Century Gothic Light;
   opacity: calc(.7);
 }
 

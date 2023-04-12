@@ -3,12 +3,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Century Gothic';
+  font-style: normal;
   line-height: 1.6;
   font-size: 18px;
   box-shadow:inset;
   background-color:rgb(275, 265, 235);
   overflow-x: hidden;
   scroll-behavior: smooth;
+
 }
 
 * {
@@ -23,4 +25,33 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+@font-face {
+  font-family: "Dolce Vita";
+  font-style: normal;
+  font-display: optional;
+  src: url('/fonts/Dolce Vita.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Dolce Vita Heavy";
+  font-style: normal;
+  font-display: optional;
+  src: url('/fonts/Dolce Vita Heavy.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: "Dolce Vita Light";
+  font-style: normal;
+  font-display: optional;
+  src: url('/fonts/Dolce Vita Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-display: optional;
+  src: url('/fonts/Century Gothic.ttf') format('truetype');
 }
