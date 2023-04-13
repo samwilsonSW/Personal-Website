@@ -127,7 +127,7 @@
 
 .name span.lastname {
   font-family: 'Dolce Vita Heavy';
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .blurb {
