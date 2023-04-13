@@ -125,10 +125,10 @@
   margin-right: 20px;
 }
 
-/*.name span.lastname {
-  font-weight: bold;
-  /*display: inline-block;
-}*/
+.name span.lastname {
+  font-family: 'Dolce Vita Heavy';
+  /*display: inline-block;*/
+}
 
 .blurb {
   width: 60svw;
