@@ -126,7 +126,8 @@
 }
 
 .name span.lastname {
-  font-family: 'Dolce Vita Heavy';
+  font-family: 'Dolce Vita';
+  font-weight: bold;
   /*display: inline-block;*/
 }
 
